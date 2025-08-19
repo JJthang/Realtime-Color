@@ -1,12 +1,16 @@
-import Header from "@/components/layouts/Header";
 
-export default function Home() {
-  console.log('====================================');
-  console.log('HELLO WORLD');
-  console.log('====================================');
+import { Banner, Customer, Reason } from "@/components/Home";
+import { Footer, MainHeader } from "@/components/layouts";
+
+
+export default async function Home() {
   return (
     <>
-      <Header />
+      <MainHeader />
+      <Banner />
+      <Reason />
+      <Customer />
+      <Footer />
     </>
   );
 }

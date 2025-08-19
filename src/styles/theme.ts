@@ -30,8 +30,13 @@ export const theme = createTheme({
       styleOverrides: {
         "*": {
           boxSizing: "border-box",
-          margin: 0,
-          padding: 0,
+        },
+      },
+    },
+    MuiContainer: {
+      styleOverrides: {
+        root: {
+          padding: "0px !important",
         },
       },
     },
