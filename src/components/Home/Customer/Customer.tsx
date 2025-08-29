@@ -1,4 +1,4 @@
-import CustomContainer from '@/components/shared/Container'
+import CustomContainer from '@/components/shared/animetions/Container'
 import React from 'react'
 
 
