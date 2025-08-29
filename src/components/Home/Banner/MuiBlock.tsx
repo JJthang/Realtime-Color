@@ -1,59 +1,203 @@
 import React from "react";
-import { Grid, Box } from "@mui/material";
 
-export default function MuiBlock() {
+
+const MuiBlock = () => {
     return (
-        <Grid container spacing={2}>
-            {/* Top left small bar */}
-            <Grid xs={2}>
-                <Box sx={{ height: 40, bgcolor: "grey.100", borderRadius: 2 }} />
-            </Grid>
-
-            {/* Top right small bar */}
-            <Grid xs={2} sx={{ ml: "auto" }}>
-                <Box sx={{ height: 40, bgcolor: "indigo.100", borderRadius: 2 }} />
-            </Grid>
-
-            {/* Big blue block */}
-            <Grid xs={6}>
-                <Box sx={{ height: 300, bgcolor: "blue.700", borderRadius: 2 }} />
-            </Grid>
-
-            {/* Right tall block */}
-            <Grid xs={2} container direction="column" spacing={2}>
-                <Grid>
-                    <Box sx={{ height: 120, bgcolor: "indigo.100", borderRadius: 2 }} />
-                </Grid>
-                <Grid>
-                    <Box sx={{ height: 180, bgcolor: "indigo.100", borderRadius: 2 }} />
-                </Grid>
-            </Grid>
-
-            {/* Left vertical block */}
-            <Grid xs={2}>
-                <Box sx={{ height: 200, bgcolor: "grey.100", borderRadius: 2 }} />
-            </Grid>
-
-            {/* Bottom black block */}
-            <Grid xs={2}>
-                <Box sx={{ height: 120, bgcolor: "black", borderRadius: 2 }} />
-            </Grid>
-
-            {/* Middle small blocks */}
-            <Grid xs={2}>
-                <Box sx={{ height: 60, bgcolor: "grey.100", borderRadius: 2 }} />
-            </Grid>
-            <Grid xs={2}>
-                <Box sx={{ height: 60, bgcolor: "indigo.100", borderRadius: 2 }} />
-            </Grid>
-            <Grid xs={2}>
-                <Box sx={{ height: 100, bgcolor: "blue.600", borderRadius: 2 }} />
-            </Grid>
-
-            {/* Very bottom center small black bar */}
-            <Grid xs={2}>
-                <Box sx={{ height: 30, bgcolor: "black", borderRadius: 2 }} />
-            </Grid>
-        </Grid>
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="652"
+            height="644"
+            viewBox="0 0 652 644"
+            fill="none"
+            className="mondrian"
+            data-astro-cid-j7pv25f6=""
+        >
+            {" "}
+            <rect
+                opacity="0.05"
+                x="1"
+                width="163"
+                height="60"
+                rx="10"
+                fill="#050315"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="424"
+                width="193"
+                height="60"
+                rx="10"
+                fill="#dedcff"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="424"
+                y="68"
+                width="193"
+                height="175"
+                rx="10"
+                fill="#dedcff"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                opacity="0.2"
+                x="424"
+                y="401"
+                width="193"
+                height="79"
+                rx="10"
+                fill="#2f27ce"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="255"
+                y="626"
+                width="362"
+                height="18"
+                rx="9"
+                fill="#fbfbfe"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="80"
+                y="579"
+                width="166"
+                height="65"
+                rx="10"
+                fill="#fbfbfe"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="255"
+                y="579"
+                width="160"
+                height="40"
+                rx="10"
+                fill="#050315"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                opacity="0.05"
+                x="255"
+                y="490"
+                width="160"
+                height="80"
+                rx="10"
+                fill="#050315"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                opacity="0.05"
+                x="255"
+                y="400"
+                width="160"
+                height="80"
+                rx="10"
+                fill="#050315"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="80"
+                y="68"
+                width="335"
+                height="324"
+                rx="10"
+                fill="#2f27ce"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="80"
+                y="401"
+                width="166"
+                height="169"
+                rx="10"
+                fill="#050315"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="424"
+                y="490"
+                width="193"
+                height="129"
+                rx="10"
+                fill="#433bff"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                opacity="0.05"
+                x="626"
+                y="490"
+                width="26"
+                height="154"
+                rx="10"
+                fill="#050315"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="424"
+                y="252"
+                width="91"
+                height="140"
+                rx="10"
+                fill="#fbfbfe"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="524"
+                y="252"
+                width="93"
+                height="140"
+                rx="10"
+                fill="#fbfbfe"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                opacity="0.05"
+                x="626"
+                width="26"
+                height="480"
+                rx="10"
+                fill="#050315"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="173"
+                width="242"
+                height="60"
+                rx="10"
+                fill="#fbfbfe"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="1"
+                y="68"
+                width="70"
+                height="157"
+                rx="10"
+                fill="#fbfbfe"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                opacity="0.05"
+                x="1"
+                y="234"
+                width="70"
+                height="259"
+                rx="10"
+                fill="#050315"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+            <rect
+                x="1"
+                y="502"
+                width="70"
+                height="142"
+                rx="10"
+                fill="#dedcff"
+                data-astro-cid-j7pv25f6=""
+            ></rect>{" "}
+        </svg>
     );
-}
+};
+
+export default MuiBlock;

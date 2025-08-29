@@ -25,6 +25,8 @@
     "@svgr/webpack": "^8.1.0",
     "axios": "^1.11.0",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.23.12",
+    "motion": "^12.23.12",
     "next": "15.4.6",
     "next-redux-wrapper": "^8.1.0",
     "react": "19.1.0",
