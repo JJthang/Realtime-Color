@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import ReduxProvider from "@/providers/ReduxProvider";
-import MuiProvider from "@/providers/MuiProvider";
+import { PageLoader } from "@/components/shared";
+import { MuiProvider, ReduxProvider } from "@/providers";
 import "@/styles/global.scss";
 import "@/styles/_tailwind.css";
 
@@ -34,6 +34,8 @@ export default function RootLayout({
       >
         <ReduxProvider>
           <MuiProvider>
+            {/* <PageLoader>
+            </PageLoader> */}
             {children}
           </MuiProvider>
         </ReduxProvider>

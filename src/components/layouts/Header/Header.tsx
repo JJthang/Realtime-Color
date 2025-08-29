@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import CustomContainer from '@/components/shared/Container'
+import CustomContainer from '@/components/shared/animetions/Container'
 import NavLinks from './NavLink'
 
 export const MainHeader = () => {

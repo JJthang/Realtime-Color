@@ -14,7 +14,7 @@ type Props = {
 const muiCache = createCache({ key: 'mui', prepend: true })
 muiCache.compat = true
 
-const MuiProvider: React.FC<Props> = ({ children }: Props) => {
+export const MuiProvider: React.FC<Props> = ({ children }: Props) => {
     return (
         <CacheProvider value={muiCache} >
             <ThemeProvider theme={theme}>
@@ -26,5 +26,3 @@ const MuiProvider: React.FC<Props> = ({ children }: Props) => {
         </CacheProvider>
     )
 }
-
-export default MuiProvider

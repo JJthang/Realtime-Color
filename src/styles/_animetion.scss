@@ -1,0 +1,24 @@
+.parallaxBg {
+    background: {
+        image: url("https://free3d.com/img/selections/feat-May2019.jpg");
+        position: center;
+        size: cover;
+        repeat: no-repeat;
+        attachment: fixed;
+    }
+    background-color: red;
+
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+
+    pointer-events: none;
+
+    @media (max-width: 768px) {
+        background-attachment: scroll;
+        background-position: center top;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        background-attachment: scroll;
+    }
+}
